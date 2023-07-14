@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7c09b1-37a9-4349-b2bb-c6bbd7f0093f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Penjualan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Penjualan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Penjualan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

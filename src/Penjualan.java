@@ -22,6 +22,19 @@ public class Penjualan {
             switch (pilihan) {
                 case 1:
                     // Kode untuk tambah barang
+                    System.out.print("Masukkan nama barang: ");
+                    String nama = scanner.nextLine();
+                    System.out.print("Masukkan harga barang: ");
+                    double harga = scanner.nextDouble();
+                    System.out.print("Masukkan jumlah barang: ");
+                    int jumlah = scanner.nextInt();
+                    scanner.nextLine();
+
+                    Barang barang = new Barang(nama, harga, jumlah);
+                    keranjangBelanja.add(barang);
+                    System.out.println("Barang berhasil ditambahkan ke keranjang belanja.");
+                    System.out.println();
+
                     break;
                 case 2:
                     // Kode untuk tampilkan keranjang belanja
