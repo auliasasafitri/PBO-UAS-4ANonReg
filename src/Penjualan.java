@@ -38,6 +38,16 @@ public class Penjualan {
                     break;
                 case 2:
                     // Kode untuk tampilkan keranjang belanja
+                    System.out.println("Keranjang Belanja:");
+                    for (int i = 0; i < keranjangBelanja.size(); i++) {
+                        Barang b = keranjangBelanja.get(i);
+                        System.out.println("Barang " + (i + 1) + ":");
+                        System.out.println("Nama: " + b.getNama());
+                        System.out.println("Harga: Rp" + b.getHarga());
+                        System.out.println("Jumlah: " + b.getJumlah());
+                        System.out.println();
+                    }
+
                     break;
                 case 3:
                     // Kode untuk total harga
