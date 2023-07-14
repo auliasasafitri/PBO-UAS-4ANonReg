@@ -51,6 +51,13 @@ public class Penjualan {
                     break;
                 case 3:
                     // Kode untuk total harga
+                    double totalHarga = 0;
+                    for (Barang b : keranjangBelanja) {
+                        totalHarga += b.getHarga() * b.getJumlah();
+                    }
+                    System.out.println("Total Harga: Rp" + totalHarga);
+                    System.out.println();
+
                     break;
                 case 4:
                     // Kode untuk keluar
