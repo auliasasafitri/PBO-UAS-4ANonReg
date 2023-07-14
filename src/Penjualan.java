@@ -61,10 +61,8 @@ public class Penjualan {
                     break;
                 case 4:
                     // Kode untuk keluar
-                case 4:
                     isRunning = false;
                     System.out.println("Terima kasih!");
-                    break;
 
                 break;
                 default:
